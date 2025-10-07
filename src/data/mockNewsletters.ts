@@ -7,6 +7,7 @@ export const mockNewsletters: Newsletter[] = [
     title: 'Week of October 7, 2025',
     published_date: '2025-10-07',
     description: 'Cloud security incidents, Kubernetes updates, and zero-trust developments',
+    talent_market_summary: `**NZ Talent Market Update:** Strong demand for Cloud Security Architects in the public sector this week, with three government agencies advertising roles requiring SC clearance. Private sector seeing increased interest in Zero Trust specialists (NZ$150k-190k range). Wellington market particularly active with several fintech startups hiring Cloud Infrastructure Engineers. Kubernetes expertise now appearing in 70% of cloud security job descriptions.`,
     items: [
       {
         id: 'item-1',
@@ -101,6 +102,7 @@ export const mockNewsletters: Newsletter[] = [
     title: 'Week of September 23, 2025',
     published_date: '2025-09-23',
     description: 'Inaugural edition covering IAM best practices and cloud compliance',
+    talent_market_summary: `**NZ Talent Market Update:** Market showing steady growth in Cloud Security positions across Auckland and Christchurch. Notable increase in IAM specialist roles (NZ$130k-170k) as organizations modernize identity management. Compliance-focused Cloud Engineers in high demand following recent regulatory changes. Entry-level Security Analyst positions growing, with many employers offering certification sponsorship for AWS/Azure credentials.`,
     items: [
       {
         id: 'item-7',

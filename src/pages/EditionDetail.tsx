@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { NewsletterHeader } from '@/components/newsletter/NewsletterHeader';
 import { TldrItemCard } from '@/components/newsletter/TldrItemCard';
+import { TalentMarketSummary } from '@/components/newsletter/TalentMarketSummary';
 import { mockNewsletters } from '@/data/mockNewsletters';
 import { ChevronLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -67,6 +68,13 @@ const EditionDetail = () => {
             </p>
           )}
         </div>
+
+        {/* Talent Market Summary */}
+        {newsletter.talent_market_summary && (
+          <div className="mb-12">
+            <TalentMarketSummary summary={newsletter.talent_market_summary} />
+          </div>
+        )}
 
         {/* TLDR Items */}
         <div className="space-y-8">

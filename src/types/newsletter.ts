@@ -16,6 +16,7 @@ export interface Newsletter {
   title: string;
   published_date: string;
   description?: string;
+  talent_market_summary?: string;
   items: TldrItem[];
 }
 

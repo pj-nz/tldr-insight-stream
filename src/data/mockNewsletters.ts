@@ -66,6 +66,7 @@ export const mockNewsletters: Newsletter[] = [
     title: 'Week of September 30, 2025',
     published_date: '2025-09-30',
     description: 'Container security, cloud cost optimization, and compliance updates',
+    talent_market_summary: `**NZ Talent Market Update:** Cloud/Infrastructure Security hiring remains competitive in Auckland and Wellington. Three senior Cloud Security Engineer roles opened at major financial institutions this week, requiring AWS/Azure security architecture experience. DevSecOps positions continue to command premium salaries (NZ$140k-180k) with strong demand for Kubernetes security expertise. Remote-first positions are increasing, particularly for mid-level security analysts with certifications (CISSP, AWS Security Specialty).`,
     items: [
       {
         id: 'item-5',

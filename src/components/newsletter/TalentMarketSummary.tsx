@@ -10,7 +10,7 @@ export const TalentMarketSummary = ({ summary }: TalentMarketSummaryProps) => {
       <div className="flex items-center gap-2">
         <Briefcase className="h-5 w-5 text-primary" />
         <h2 className="text-lg font-semibold text-foreground">
-          NZ Talent Market - Cloud/Infra Security
+          NZ Talent Market
         </h2>
       </div>
       
